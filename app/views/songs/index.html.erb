@@ -1,0 +1,19 @@
+<h3> List of Songs </h3>
+<% @songs.each do |song|%>
+ <table border = "1">
+ <tbody>
+<tr>
+<th> Title </th>
+<th> Realsed </th>
+<th> Release Year</th>
+<th> Artist Name </th>
+<th> Genre </th>
+</tr>
+<td><%= song.title %></td>
+<td><%= song.released %></td>
+ <td><%= song.release_year %></td>
+ <td><%= song.genre %></td>
+ </tbody>
+  </table>
+ <% end %>
+
