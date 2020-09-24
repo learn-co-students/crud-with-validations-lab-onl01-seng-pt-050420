@@ -1,1 +1,10 @@
-One song detail page
+<h1><%= @song.title %></h1>
+<ul>
+    <li><%= @song.artist_name %></li>
+    <li><%= @song.released %></li>
+    <li><%= @song.release_year %></li>
+    <li><%= @song.genre %></li>
+</ul>
+
+<%= link_to 'Edit', edit_song_path %> |
+<%= link_to 'Back', songs_path %>
