@@ -1,9 +1,9 @@
 <h1><%= @song.title %></h1>
 <ul>
-    <li><%= @song.artist_name %></li>
-    <li><%= @song.released %></li>
-    <li><%= @song.release_year %></li>
-    <li><%= @song.genre %></li>
+    <li>Artist: <%= @song.artist_name %></li>
+    <li>Released: <%= @song.released %></li>
+    <li>Release Year: <%= @song.release_year %></li>
+    <li>Genre: <%= @song.genre %></li>
 </ul>
 
 <%= link_to 'Edit', edit_song_path %> |
