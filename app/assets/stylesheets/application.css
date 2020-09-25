@@ -19,3 +19,10 @@
   background-color: red;
   display: table;
 }
+table {
+  background-color: antiquewhite;
+  vertical-align: middle;
+}
+th, td {
+  padding: 10px;
+}
